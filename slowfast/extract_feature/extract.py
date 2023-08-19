@@ -1,3 +1,11 @@
+import os
+import sys
+
+# Add the path to folder 'b' to the sys.path list
+root_path = os.path.abspath(os.path.join(os.path.dirname(__file__), '..'))
+
+# Add the root directory path to sys.path
+sys.path.append(root_path)
 import torch as th
 import numpy as np
 from video_loader import (
@@ -260,4 +268,5 @@ def main():
 
 
 if __name__ == "__main__":
+    print("ho")
     main()

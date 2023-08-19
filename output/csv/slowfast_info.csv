@@ -1,0 +1,2 @@
+video_path,feature_path
+/video/https:____livestream-videos-prod.s3-us-west-2.amazonaws.com__stream-2ef3cbfe-4ecb-425f-903e-427fb9844dee-s3.95.cut.10.mp4,../output/slowfast_features/https:____livestream-videos-prod.s3-us-west-2.amazonaws.com__stream-2ef3cbfe-4ecb-425f-903e-427fb9844dee-s3.95.cut.10.npz
